@@ -1,0 +1,340 @@
+.topCont{
+    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Background-medium.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.svg{
+    fill: red !important;
+    color: red;
+    height: 2.25rem;
+}
+.navbar{
+    padding: 30px 60px !important;
+}
+.InnerNav{
+    width: 100%;
+}
+.floatRight{
+    float: right ;    
+    font-weight: 800;
+}
+.btnSI{
+    background-color: #e50914;
+    font-size: 1rem;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    margin-left: 30px;
+}
+.LangDD{
+    background-color: transparent;
+    color: white;   
+    border: 1px solid white;
+    padding: 5px 2px;
+    border-radius: 3px;
+}
+
+.LangDD option{
+    background-color: lightslategrey;
+    color:white;
+}
+.Page1{
+    padding: 70px;
+    height: 100vh;
+}
+.headings{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.headings h1{
+    font-size: 3.5rem;
+    margin: 15px 50px;
+}
+.EmailSec h6{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.EmailSec label{
+    width: 100%;
+}
+
+/* .EmailSec input{
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    width: 57%;    
+    border: 0;
+}
+.EmailSec button{
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    width: 25%;
+    background-color: #e50914;
+    color: white;
+    border: 0; 
+} */
+
+
+.EmailSec input{
+    padding: 17px;
+    width: 57%;    
+    border: 0;
+    margin: 0;
+}
+.EmailSec button{
+    padding: 17px;
+    width: 25%;
+    background-color: #e50914;
+    color: white;
+    border: 0;
+    margin: 0%;
+}
+hr{
+    background-color: rgb(41, 41, 41) !important;
+    border: 0 !important;
+    height: 1.2vh !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+.Page2{
+    /* background-image:url(images/black\ 5x12\ background.jpg); */
+    color: white;
+    background-color: black ;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    padding: 50px;
+}
+#p2p1{
+    float: left;
+    width: 50%;
+    margin-top: 5vh;
+
+}
+#p2p1 h1{
+    font-size: 3.15rem;
+    margin-bottom: 3vh;
+    margin-top: 1.5rem;
+    font-weight: 900;
+}
+#p2p1 h3{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#p2p2{
+    float: right;
+    position: relative;
+}
+#p2p2 img{
+    height: 20rem;
+    position: absolute;
+    right: 0.2rem !important;
+    top: 0rem;
+    margin-right: rem;
+    z-index:2;
+}
+#p2p2 video{
+    height: 11rem;
+    position: absolute;
+    top: 4rem;
+    right: 3.9rem;
+
+}
+
+.Page3{
+    /* background-image:url(images/black\ 5x12\ background.jpg); */
+    color: white;
+    background-color: black ;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    padding: 70px ;
+}
+#p3p2{
+    float: right;
+    width: 50%;
+}
+#p3p2 h1{
+    font-size: 3.15rem;
+    margin-bottom: 3vh;
+    font-weight: 900;
+    vertical-align: middle;
+    display: flex;
+}
+#p3p2 h3{
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+}
+#p3p1{
+    float: left;
+}
+#backIMG{
+    height: 20rem;
+    position: absolute;
+    top: 2.1rem;
+    left: 1.5rem;
+}
+
+
+#DownST{
+    z-index: 1;
+    background-color: black;
+    height: 5.8rem;
+    width: 17rem;
+    color: lightblue;
+    border: black 1px solid;
+    vertical-align: center;
+    position: relative;
+    top: 11rem;
+    left: 2rem;
+    padding: 0.5rem 0.65rem;
+    display: flex;
+    border-radius: 0.8rem;
+    border: 2px solid rgba(131, 130, 130, 0.616);
+}
+.img1 img{
+    height: 4rem;
+    position: absolute;
+    top: 0.6rem;
+
+}
+.text{
+    margin-left: 1rem;
+    position: absolute;
+    top: 1.6rem;
+    left: 3.8rem;
+    line-height: 1.5;
+}
+.text h5{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.text p{
+    color: #0071eb;
+    margin-top: 0.3rem !important;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 0;
+}
+#setMiddle{
+    margin: 0;
+}
+.img2 img{
+    height: 2.8rem;
+    float: right;
+    position: absolute;
+    top: 1.5rem;
+    right: 0.7rem;
+}
+
+
+.Page4{
+    /* background-image:url(images/black\ 5x12\ background.jpg); */
+    color: white;
+    background-color: black ;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    padding: 70px ;
+}
+#p4p1{
+    float: left;
+    width: 50%;
+    margin-top: 5vh;
+
+}
+#p4p1 h1{
+    font-size: 3.15rem;
+    margin-bottom: 3vh;
+}
+#p4p1 h3{
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+#p4p2{
+    float: right;
+}
+#p4p2 img{
+    height: 49vh;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    margin-right: 5vh;
+    z-index: 1;
+}
+#p4p2 video{
+    height: 11rem;
+    position: absolute;
+    top: 4rem;
+    right: 3.9rem;
+}
+.noClass{
+    height: 20rem;
+    position: absolute;
+    top: 3.1rem;
+    left: 1.5rem;
+}
+
+
+.FAQ{
+    color: white;
+    background-color: black ;
+    padding: 70px ;
+    text-align: center;
+}
+.FAQ h1{
+    font-weight: 800;
+    font-size: 3.15rem;
+}
+.card-body{
+    color: white;
+    background-color: rgb(71, 71, 71) !important;
+}
+.collapse{
+    
+}
+.btspbtn{
+    width: 85% !important;
+    font-size: 1.5rem !important;
+    background-color: rgb(71, 71, 71) !important;
+    padding: 1rem 2rem !important;
+    margin: 2.5rem 0 0.3rem 0;
+}
+
+summary::marker{
+    -webkit-appearance: none !important;
+}
+details summary i{
+    transform: rotate(90deg);
+    margin-left: 1rem;
+    z-index: 1;
+    color: white;
+}
+details[open] i{
+    transform: rotate(180deg);
+}
+summary::marker{
+    color: transparent;
+}
+details summary{
+    z-index: 0;
+    background-color: rgba(45, 45, 45, 1);
+    font-size: 2rem;
+}
+details summary:hover{
+    background-color: rgb(78,78,78);
+    transition: 300ms;
+}
+summary p{
+    background-color: rgba(45, 45, 45, 1) ;
+}
