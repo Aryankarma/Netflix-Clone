@@ -76,7 +76,6 @@
     border: 0; 
 } */
 
-
 .EmailSec input{
     padding: 17px;
     width: 57%;    
@@ -285,14 +284,14 @@ hr{
     left: 1.5rem;
 }
 
-
 .FAQ{
     color: white;
     background-color: black ;
     padding: 70px ;
     text-align: center;
 }
-.FAQ h1{
+
+.FAQtext{    
     font-weight: 800;
     font-size: 3.15rem;
 }
@@ -310,31 +309,144 @@ hr{
     padding: 1rem 2rem !important;
     margin: 2.5rem 0 0.3rem 0;
 }
-
-summary::marker{
-    -webkit-appearance: none !important;
+details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
 }
+/* summary::marker{
+    -webkit-appearance: none !important;
+} */
 details summary i{
     transform: rotate(90deg);
     margin-left: 1rem;
     z-index: 1;
     color: white;
 }
+
 details[open] i{
     transform: rotate(180deg);
 }
+
 summary::marker{
     color: transparent;
 }
 details summary{
     z-index: 0;
     background-color: rgba(45, 45, 45, 1);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 1.8rem;
+    width: 70%;
+    display: flex;
+    margin: 0.3rem 0;
+    align-items: center;
 }
+
+/* details[open] summary[open] summary{
+    margin: 0 !important;
+} */
+
+details p{
+    width: 70%;
+    background-color:rgba(45, 45, 45, 1) ;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.FAQhr{
+    background-color: transparent !important;
+    height: 1px !important;
+
+}
+
 details summary:hover{
     background-color: rgb(78,78,78);
     transition: 300ms;
 }
 summary p{
     background-color: rgba(45, 45, 45, 1) ;
+}
+.EmailSec1 h6{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.EmailSec1 label{
+    width: 100%;
+}
+.EmailSec1 input{
+    padding: 17px;
+    width: 55%;    
+    border: 0;
+    margin: 0;
+}
+.EmailSec1 button{
+    padding: 17px;
+    width: 22%;
+    background-color: #e50914;
+    color: white;
+    border: 0;
+    margin: 0%;
+}
+.footer{
+    color: white;
+    background-color: black ;
+    padding: 70px;
+    text-align: center;
+}
+
+.call{
+    /* margin-right: auto; */
+    color: #737373;
+    position: absolute;
+    left: 70px;
+    margin-bottom: 2rem;
+}
+.row1,.row2,.row3,.row4{
+    display: block;
+}
+.call a{
+    color: #737373;
+}
+.call a:hover{
+    color: #737373;
+}
+.row1 ul{
+    position: absolute;
+}
+.row1 ul li,.row2 ul li, .row3 ul li,.row4 ul li{
+    list-style-type: none;
+}
+.row1 ul li a ,.row2 ul li a, .row3 ul li a ,.row4 ul li a{
+    color: #737373;
+}
+.floatRight1{
+    float: left ;    
+    font-weight: 800;
+    color: #737373;
+    outline: solid 1px #737373;;
+}
+.footer span{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    float: left;
+    position: absolute;
+    left: 2.4rem;
+    color: #737373;
+}
+.LangDD1{
+    background-color: transparent;
+    color: #737373;   
+    border: 1px solid #737373;
+    padding: 5px 2px;
+    border-radius: 3px;
+}
+
+.LangDD1 option{
+    background-color: lightslategrey;
+    color:white;
 }
