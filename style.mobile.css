@@ -1,61 +1,71 @@
+body{
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+body,html{
+    overflow-x: hidden;
+    background-color: black !important;
+    margin: 0;
+}
 .topCont{
     background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Background-medium.jpg);
-    height: 100vh;
+    height: 30rem;
     background-size: cover;
 }
 .svg{
     fill: red !important;
     color: red;
-    height: 2.25rem;
+    height: 1.4rem;
 }
 .navbar{
-    padding: 30px 60px !important;
+    padding: 1.4rem !important;
 }
 .InnerNav{
     width: 100%;
 }
 .floatRight{
-    float: right ;    
+    float: right;
     font-weight: 800;
 }
 .btnSI{
     background-color: #e50914;
     font-size: 1rem;
-    padding: 5px 15px;
+    padding: 0.1rem 0.5rem;
+    font-weight: 700 !important;
     border-radius: 3px;
     border: 0;
     color: white;
-    margin-left: 30px;
+    margin-left: 0.5rem;
 }
 .LangDD{
     background-color: transparent;
-    color: white;   
-    border: 1px solid white;
-    padding: 5px 2px;
+    color: white;  
+    font-weight: 400 !important;
+    font-size: 1rem; 
+    border: 0.1rem solid rgba(255, 255, 255, 0.541);
+    padding: 0rem 0.2rem;
     border-radius: 3px;
 }
-
-.LangDD option{
-    background-color: lightslategrey;
-    color:white;
-}
-.Page1{
-    padding: 70px;
-    height: 100vh;
+.page1{
+    display: flex;
 }
 .headings{
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
 }
 .headings h1{
-    font-size: 3.5rem;
-    margin: 15px 50px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 2.5rem 1.5rem 1rem 1.5rem;
+}
+.headings h3{
+    font-size: 1.1rem;
+    font-weight: 600 !important;
 }
 .EmailSec h6{
-    font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    margin: 1.2rem 2.5rem;
+    font-weight: 600;
 }
 .EmailSec label{
     width: 100%;
@@ -77,151 +87,138 @@
 } */
 
 .EmailSec input{
-    padding: 17px;
-    width: 57%;    
+    padding: 0.8rem;
+    width: 100%;   
+    margin-bottom:1rem;
     border: 0;
-    margin: 0;
+    border-radius: 0.1rem;
 }
 .EmailSec button{
-    padding: 17px;
-    width: 25%;
+    padding: 0.6rem;
+    width: 50%;
     background-color: #e50914;
     color: white;
+    border-radius: 0.1rem;
     border: 0;
-    margin: 0%;
 }
+
 hr{
     background-color: rgb(41, 41, 41) !important;
-    border: 0 !important;
-    height: 1.2vh !important;
-    opacity: 1 !important;
+    height: .4rem !important;
     margin: 0 !important;
+    border: 0;
 }
 .Page2{
-    /* background-image:url(images/black\ 5x12\ background.jpg); */
     color: white;
-    background-color: black ;
-    height: 70vh;
-    background-size: cover;
-    position: relative;
-    padding: 50px;
+    /* background-color: black ; */
+    height: auto;
+    padding: 2rem;
 }
 #p2p1{
-    float: left;
-    width: 50%;
-    margin-top: 5vh;
-
+    width: 100%;
+    text-align: center;
 }
 #p2p1 h1{
-    font-size: 3.15rem;
-    margin-bottom: 3vh;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
     margin-top: 1.5rem;
-    font-weight: 900;
+    font-weight: 700 !important; 
 }
 #p2p1 h3{
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 500;
 }
 #p2p2{
-    float: right;
     position: relative;
+    justify-content: center;
+    display: flex;
 }
 #p2p2 img{
-    height: 20rem;
-    position: absolute;
-    right: 0.2rem !important;
-    top: 0rem;
-    margin-right: rem;
-    z-index:2;
+    z-index:1;
+    height: 15rem;
 }
 #p2p2 video{
-    height: 11rem;
+    height: 8.3rem;
     position: absolute;
-    top: 4rem;
-    right: 3.9rem;
-
+    top: 3.1rem;
+    z-index: 0;
 }
-
 .Page3{
-    /* background-image:url(images/black\ 5x12\ background.jpg); */
     color: white;
-    background-color: black ;
-    height: 60vh;
-    background-size: cover;
-    position: relative;
-    padding: 70px ;
+    /* background-color: black ; */
+    height: auto;
+    padding: 2rem;
 }
 #p3p2{
-    float: right;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 #p3p2 h1{
-    font-size: 3.15rem;
-    margin-bottom: 3vh;
-    font-weight: 900;
-    vertical-align: middle;
-    display: flex;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 700 !important; 
 }
 #p3p2 h3{
+    font-size: 1.1rem;
     line-height: 1.5;
-    font-size: 1.6rem;
-    font-weight: 400;
-    vertical-align: middle;
-    display: flex;
+    font-weight: 500;
 }
 #p3p1{
-    float: left;
+    position: relative;
+    justify-content: center;
+    display: flex;
 }
 #backIMG{
-    height: 20rem;
-    position: absolute;
-    top: 2.1rem;
-    left: 1.5rem;
+    z-index: 0;
+    height: 15rem;
 }
-
-
+.extraDiv{
+    position: relative;
+    display: flex;
+}
 #DownST{
     z-index: 1;
     background-color: black;
-    height: 5.8rem;
-    width: 17rem;
+    height: 4rem;
+    width: 14rem;
     color: lightblue;
     border: black 1px solid;
     vertical-align: center;
-    position: relative;
-    top: 11rem;
-    left: 2rem;
-    padding: 0.5rem 0.65rem;
+    position: absolute;
+    left: 15%;
+    bottom: 1.5rem;
+    padding: 0.5rem;
     display: flex;
-    border-radius: 0.8rem;
+    border-radius: 0.7rem;
     border: 2px solid rgba(131, 130, 130, 0.616);
 }
 .img1 img{
-    height: 4rem;
+    height: 3rem;
     position: absolute;
-    top: 0.6rem;
-
+    top: 0.4rem;
+    left: 0.6rem;
 }
 .text{
     margin-left: 1rem;
     position: absolute;
-    top: 1.6rem;
-    left: 3.8rem;
-    line-height: 1.5;
+    top: .95rem;
+    left: 2.8rem;
+    line-height: 1;
+    font-weight: 600;
 }
 .text h5{
-    font-size: 0.8rem;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 0.7rem;
+    font-weight: 800;
     letter-spacing: 0.1rem;
     color: white;
 }
 .text p{
     color: #0071eb;
     margin-top: 0.3rem !important;
-    font-size: 0.8rem;
-    font-family: sans-serif;
+    font-size: 0.7rem;
     font-weight: 0;
 }
 #setMiddle{
@@ -231,117 +228,99 @@ hr{
     height: 2.8rem;
     float: right;
     position: absolute;
-    top: 1.5rem;
-    right: 0.7rem;
+    top: 0.5rem;
+    right: 0.2rem;
 }
-
 
 .Page4{
-    /* background-image:url(images/black\ 5x12\ background.jpg); */
     color: white;
-    background-color: black ;
-    height: 70vh;
-    background-size: cover;
-    position: relative;
-    padding: 70px ;
+    /* background-color: black ; */
+    height: auto;
+    padding: 2rem;
 }
 #p4p1{
-    float: left;
-    width: 50%;
-
-    margin-top: 5vh;
-
+    width: 100%;
+    text-align: center;
 }
 #p4p1 h1{
-    font-size: 3.15rem;
-    font-weight: 800;
-    letter-spacing: -0.08rem;
-    margin-bottom: 3vh;
-
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 700 !important; 
 }
 #p4p1 h3{
+    font-size: 1.1rem;
     line-height: 1.5;
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 #p4p2{
-    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 #p4p2 img{
-    height: 49vh;
-    position: absolute;
-    top: 5vh;
-    right: 0;
-    margin-right: 5vh;
+    height: 15rem;
     z-index: 1;
 }
 #p4p2 video{
-    height: 10rem;
+    height: 7.3rem;
+    z-index: 0;
     position: absolute;
-    top: 3.8rem;
-    right: 6.8rem;
+    top: 1.2rem;
 }
-
 .page5{
-    /* background-image:url(images/black\ 5x12\ background.jpg); */
     color: white;
-    background-color: black ;
-    height: 70vh;
-    background-size: cover;
-    position: relative;
-    padding: 70px ;
+    height: auto;
+    padding: 2rem;
 }
-
 #p5p1{
-    float: right;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 #p5p1 h1{
-    font-size: 3.15rem;
-    margin-bottom: 3vh;
-    font-weight: 900;
-    vertical-align: middle;
-    display: flex;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 700 !important; 
 }
 #p5p1 h3{
+    font-size: 1.1rem;
     line-height: 1.5;
-    font-size: 1.6rem;
-    font-weight: 400;
-    vertical-align: middle;
-    display: flex;
+    font-weight: 500;
 }
 #p5p2{
-    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 #p5p2 img{
-    height: 20rem;
-    position: absolute;
-    top: 2.1rem;
-    left: 1.5rem;
+    height: 15rem;
+    z-index: 1;
 }
 
 
-.noClass{
-    height: 20rem;
-    position: absolute;
-    top: 3.1rem;
-    left: 1.5rem;
-}
 
 .FAQ{
     color: white;
-    background-color: black ;
-    padding: 70px ;
     text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    height: auto;
 }
 
-.FAQtext{    
-    font-weight: 800;
-    font-size: 3.15rem;
+.FAQtext h1{    
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700 !important;
 }
 .card-body{
     color: white;
     background-color: rgb(71, 71, 71) !important;
+
 }
 .collapse{
     
@@ -381,9 +360,9 @@ details summary{
     z-index: 0;
     position: relative;
     background-color: rgba(45, 45, 45, 1);
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem 1rem 1rem 1.8rem;
-    width: 70%;
+    width: 100%;
     display: flex;
     margin: 0.3rem 0;
     align-items: center;
@@ -394,14 +373,14 @@ details summary{
 } */
 
 details p{
-    width: 70%;
+    width: 100%;
     background-color:rgba(45, 45, 45, 1) ;
     display: flex;
     justify-content: center;
     text-align: left;
     align-items: center;
     padding: 2rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .FAQhr{
     background-color: transparent !important;
@@ -416,37 +395,39 @@ details summary:hover{
 summary p{
     background-color: rgba(45, 45, 45, 1) ;
 }
+
 .EmailSec1 h6{
-    font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    margin: 1.2rem 2.5rem;
+    font-weight: 600;
 }
 .EmailSec1 label{
     width: 100%;
 }
 .EmailSec1 input{
-    padding: 17px;
-    width: 55%;    
+    padding: 0.7rem;
+    width: 85%;   
+    margin-bottom:1rem;
     border: 0;
-    margin: 0;
+    border-radius: 0.1rem;
 }
 .EmailSec1 button{
-    padding: 17px;
-    width: 22%;
+    padding: 0.6rem;
+    width: 35%;
     background-color: #e50914;
     color: white;
+    border-radius: 0.1rem;
     border: 0;
-    margin: 0%;
 }
+
 .footer{
+    padding: 10%;
     color: white;
     background-color: black ;
-    padding: 90px 90px 20px 90px;
     text-align: center;
 }
 
 .call{
-    /* margin-right: auto; */
     color: #737373;
     margin-bottom: 0;
     text-align: left;
@@ -467,7 +448,7 @@ summary p{
     padding: 0.8rem 1.2rem;
 }
 .end{
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     color: #737373;
     text-align: left;
 }
@@ -485,7 +466,7 @@ summary p{
 }
 .grid-cont{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     margin-top: 1.5rem;
     text-align: left;
     font-size: 0.8rem;
@@ -503,7 +484,7 @@ summary p{
     text-decoration: none;
 }
 .grid-item ul li a:hover{
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 .setCenter{
     display: flex;
@@ -516,36 +497,23 @@ summary p{
 }
 
 
-
-/* CSS for Signup Page */
+/* Sign In Page styles */
 
 /* .svg2{
     fill: red !important;
-    color: red ;
-    height: 1rem ;
+    color: red;
+    height: 1.4rem;
 }
 .navbar2{
-    padding: 1rem 2rem !important;
+    padding: 1.4rem !important;
 }
 .InnerNav2{
     width: 100%;
 } */
 
-
-.addBG{
-    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Signup\ background.jpg);    
-    background-size: cover;
-    display: block;
-    height: 120vh;
-}
-.signupbody{
-   background-color: black;
-   margin: 0;
-   font-family: 'Nunito Sans', sans-serif !important;
-}
 .loginForm{
     /* padding: 2rem 1.5rem; */
-    /* padding: 10% 5% 5% 5%; */
+    padding: 10% 5% 5% 5%;
     height: auto;
     color: white;
 }
@@ -609,7 +577,7 @@ summary p{
 }
 .ExtraContent span{
     color: white;
-    font-size: 0.8rem;
+    font-size: small;
     padding-left: 0.2rem;
     color: #b3b3b3;
 }
@@ -621,15 +589,13 @@ summary p{
     color: #b3b3b3;
     float: right;   
     text-decoration: none;
-    font-size: 0.8rem;
 }
 .ExtraContent a:hover{
     text-decoration: underline;
 }
 .signUpForm{
-    margin: 4rem 0;
-    /* padding: 0% 5% 15% 5%; */
-    color: #737373;
+    padding: 0% 5% 15% 5%;
+    color: #b3b3b3;
 }
 .signUpForm h4{
     font-weight: 400;
@@ -657,18 +623,10 @@ summary p{
     background-color: rgb(85, 84, 84) !important;
     height: .1rem !important;
     margin: 0 !important;
-    margin-top: 2rem;
     border: 0;
 }
 .footer1{
-    padding: 5% 5%;
+    padding: 10% 5%;
     color: white;
     text-align: center;
-}
-.container{
-    max-width: 30%;
-    background-color: black;
-    margin: auto;
-    /* margin-bottom: 1rem; */
-    padding: 4rem;
 }
