@@ -655,7 +655,7 @@ summary p{
 }
 .diffHR{
     background-color: rgb(85, 84, 84) !important;
-    height: .1rem !important;
+    height: 0rem !important;
     margin: 0 !important;
     margin-top: 2rem;
     border: 0;
