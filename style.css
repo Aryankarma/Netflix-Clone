@@ -77,10 +77,24 @@
 } */
 
 .EmailSec input{
-    padding: 17px;
+    padding-left: 12px;
     width: 57%;    
+    height: 3.5rem;
     border: 0;
     margin: 0;
+    outline: 1px rgb(160,160,160) solid;
+    position: relative;
+}
+.EmailSec input:focus{
+    outline: 1px rgb(0,113,235) solid;
+}
+.EmailSec input:focus::placeholder{
+    font-size: small;
+    font-weight:600;
+    transition: 200ms;
+    position: absolute;
+    top: 2px;
+    left: 10px;
 }
 .EmailSec button{
     padding: 17px;
@@ -89,6 +103,9 @@
     color: white;
     border: 0;
     margin: 0%;
+}
+.pressEnterCSS{
+    visibility: hidden;
 }
 hr{
     background-color: rgb(41, 41, 41) !important;
@@ -409,6 +426,24 @@ details p{
 
 }
 
+.outlineGreen{
+    border: #5fa53f 1px solid !important;
+}
+
+.bottomLineYellow{
+    border-bottom: 0.15rem solid #ffa008 !important;
+
+}
+.learnJS2{
+    color: #ffa008;
+    float: left;
+    padding: 0.2rem;
+    padding-left: 4.8rem;
+}
+.emailRequired{
+    visibility: hidden;
+}
+
 details summary:hover{
     background-color: rgb(78,78,78);
     transition: 500ms;
@@ -425,18 +460,39 @@ summary p{
     width: 100%;
 }
 .EmailSec1 input{
-    padding: 17px;
-    width: 55%;    
+    padding-left: 12px;
+    width: 57%;    
+    height: 3.5rem;
     border: 0;
-    margin: 0;
+    margin-bottom: 0;
+    outline: 1px rgb(160,160,160) solid;
+    position: relative;
+}
+.EmailSec1 input::placeholder{
+    position: absolute;
+    top: 30%;
 }
 .EmailSec1 button{
     padding: 17px;
-    width: 22%;
+    width: 25%;
     background-color: #e50914;
     color: white;
     border: 0;
     margin: 0%;
+}
+/* .EmailSec1 input:focus{
+    outline: 1px rgb(0,113,235) solid;
+} */
+.focusOutlineBlue{
+    outline: 1px rgb(0,113,235) solid !important;
+}
+.EmailSec1 input:focus::placeholder{
+    font-size: small;
+    font-weight:700;
+    transition: 200ms;
+    position: absolute;
+    top: 2px;
+    left: 10px;
 }
 .footer{
     color: white;
@@ -533,13 +589,12 @@ summary p{
 
 
 .addBG{
-    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Signup\ background.jpg);    
+    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 15%,rgba(0,0,0,0.8)),url(images/Signup\ background.jpg);    
     background-size: cover;
     display: block;
-    height: 120vh;
+    height: auto;
 }
 .signupbody{
-   background-color: black;
    margin: 0;
    font-family: 'Nunito Sans', sans-serif !important;
 }
@@ -663,12 +718,14 @@ summary p{
 .footer1{
     padding: 5% 5%;
     color: white;
+    background-color: rgba(0, 0, 0, 0.80);
     text-align: center;
 }
 .container{
     max-width: 30%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.80);
+    /* opacity: 75%; */
     margin: auto;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 5.5rem;
     padding: 4rem;
 }
