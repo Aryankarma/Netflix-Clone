@@ -1,17 +1,18 @@
 .topCont{
-    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Background-medium.jpg);
+    background-image:  linear-gradient(0deg,rgba(0, 0, 0, 0.7) 25%,rgba(0, 0, 0, 0.4) 50%,rgba(0,0,0,0.7) 75%),url(images/Background-medium.jpg);
     height: 100vh;
     background-size: cover;
 }
 .svg{
-    fill: red !important;
-    color: red;
-    height: 2.25rem;
+    fill: red !important;               
+    color: red;                     
+    height: 2.25rem;                    
 }
 .navbar{
     padding: 30px 60px !important;
 }
 .InnerNav{
+    
     width: 100%;
 }
 .floatRight{
@@ -26,6 +27,10 @@
     border: 0;
     color: white;
     margin-left: 30px;
+}
+.btnSI:hover{    
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
 }
 .LangDD{
     background-color: transparent;
@@ -51,6 +56,7 @@
 .headings h1{
     font-size: 3.5rem;
     margin: 15px 50px;
+    font-weight: 900;
 }
 .EmailSec h6{
     font-size: 1.2rem;
@@ -81,6 +87,7 @@
     width: 57%;    
     height: 3.5rem;
     border: 0;
+    /* background-color: rgba(51, 51, 51, 0.658); */
     margin: 0;
     outline: 1px rgb(160,160,160) solid;
     position: relative;
@@ -90,7 +97,7 @@
 }
 .EmailSec input:focus::placeholder{
     font-size: small;
-    font-weight:600;
+    font-weight:900;
     transition: 200ms;
     position: absolute;
     top: 2px;
@@ -103,6 +110,14 @@
     color: white;
     border: 0;
     margin: 0%;
+}
+.EmailSec button:hover{
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
+}
+.buttonAnimation{
+    font-display: none;
+    opacity: 50%;
 }
 .pressEnterCSS{
     visibility: hidden;
@@ -337,7 +352,6 @@ hr{
     left: 1.5rem;
 }
 
-
 .noClass{
     height: 20rem;
     position: absolute;
@@ -427,7 +441,7 @@ details p{
 }
 
 .outlineGreen{
-    border: #5fa53f 1px solid !important;
+    border: #44ad14 1px solid !important;
 }
 
 .bottomLineYellow{
@@ -435,6 +449,12 @@ details p{
 
 }
 .learnJS2{
+    color: #ffa008;
+    float: left;
+    padding: 0.2rem;
+    padding-left: 4.8rem;
+}
+.learnJS3{
     color: #ffa008;
     float: left;
     padding: 0.2rem;
@@ -479,6 +499,10 @@ summary p{
     color: white;
     border: 0;
     margin: 0%;
+}
+.EmailSec1 button:hover{
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
 }
 /* .EmailSec1 input:focus{
     outline: 1px rgb(0,113,235) solid;

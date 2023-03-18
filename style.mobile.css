@@ -7,7 +7,7 @@ body,html{
     margin: 0;
 }
 .topCont{
-    background-image:  linear-gradient(0deg,rgba(0,0,0,0.8) 0,transparent 40%,rgba(0,0,0,0.8)),url(images/Background-medium.jpg);
+    background-image:  linear-gradient(0deg,rgba(0, 0, 0, 0.7) 25%,rgba(0, 0, 0, 0.4) 50%,rgba(0,0,0,0.7) 75%),url(images/Background-medium.jpg);
     height: 30rem;
     background-size: cover;
 }
@@ -36,6 +36,10 @@ body,html{
     color: white;
     margin-left: 0.5rem;
 }
+.btnSI:hover{    
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
+}
 .LangDD{
     background-color: transparent;
     color: white;  
@@ -55,7 +59,7 @@ body,html{
 }
 .headings h1{
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 900;
     margin: 2.5rem 1.5rem 1rem 1.5rem;
 }
 .headings h3{
@@ -93,6 +97,9 @@ body,html{
     border: 0;
     border-radius: 0.1rem;
 }
+.EmailSec input:focus{
+    outline: 1px rgb(0,113,235) solid;
+}
 .EmailSec button{
     padding: 0.6rem;
     width: 50%;
@@ -100,6 +107,10 @@ body,html{
     color: white;
     border-radius: 0.1rem;
     border: 0;
+}
+.EmailSec button:hover{
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
 }
 
 hr{
@@ -388,6 +399,18 @@ details p{
 
 }
 
+.outlineGreen{
+    border: #50ff00 1px solid !important;
+}
+
+.bottomLineYellow{
+    border-bottom: 0.15rem solid #ffa008 !important;
+
+}
+.emailRequired{
+    visibility: hidden;
+}
+
 details summary:hover{
     background-color: rgb(78,78,78);
     transition: 500ms;
@@ -411,6 +434,9 @@ summary p{
     border: 0;
     border-radius: 0.1rem;
 }
+.EmailSec1 input:focus{
+    outline: 1px rgb(0,113,235) solid;
+}
 .EmailSec1 button{
     padding: 0.6rem;
     width: 35%;
@@ -419,14 +445,16 @@ summary p{
     border-radius: 0.1rem;
     border: 0;
 }
-
+.EmailSec1 button:hover{
+    transition: 300ms;
+    background-color: rgb(193, 17, 25);
+}
 .footer{
     padding: 10%;
     color: white;
     background-color: black ;
     text-align: center;
 }
-
 .call{
     color: #737373;
     margin-bottom: 0;
