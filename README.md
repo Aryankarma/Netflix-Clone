@@ -1,2 +1,1 @@
-# Netflix-Clone
-work1 
+live link - https://aryankarma.github.io/Netflix-Clone/
